@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سياسة الخصوصية — ملف</title>
+    <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Arial, sans-serif;
+      background: #F4F6F9;
+      color: #1A2535;
+      line-height: 1.9;
+      font-size: 16px;
+    }
+
+    header {
+      background: #1B4F72;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+
+    header .icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 72px;
+      height: 72px;
+      background: rgba(255,255,255,0.12);
+      border-radius: 20px;
+      margin-bottom: 16px;
+    }
+
+    header .icon svg {
+      width: 40px;
+      height: 40px;
+      fill: #F39C12;
+    }
+
+    header h1 {
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    header p {
+      color: rgba(255,255,255,0.65);
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 40px auto;
+      padding: 0 20px 60px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #E8F5E9;
+      color: #2E7D32;
+      border-radius: 30px;
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 32px;
+    }
+
+    .badge svg {
+      width: 16px;
+      height: 16px;
+      fill: #2E7D32;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+      border-right: 4px solid #1B4F72;
+    }
+
+    .card-accent {
+      border-right-color: #F39C12;
+    }
+
+    .card-green {
+      border-right-color: #27AE60;
+    }
+
+    .section-num {
+      display: inline-block;
+      background: #1B4F72;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 700;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 26px;
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #1B4F72;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+    }
+
+    p {
+      color: #374151;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-right: 20px;
+      color: #374151;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+      position: relative;
+    }
+
+    ul li::marker {
+      color: #F39C12;
+    }
+
+    .highlight-box {
+      background: #FFF8E1;
+      border: 1px solid #FFE082;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 14px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+    }
+
+    .highlight-box svg {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      fill: #F39C12;
+      margin-top: 2px;
+    }
+
+    .highlight-box p {
+      margin: 0;
+      font-size: 14px;
+      color: #5D4037;
+    }
+
+    .green-box {
+      background: #E8F5E9;
+      border: 1px solid #A5D6A7;
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-top: 14px;
+    }
+
+    .green-box p {
+      margin: 0;
+      font-size: 14px;
+      color: #1B5E20;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      background: #EEF2F7;
+      color: #1B4F72;
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .tag.green {
+      background: #E8F5E9;
+      color: #2E7D32;
+    }
+
+    .tag.red {
+      background: #FFEBEE;
+      color: #C62828;
+    }
+
+    .divider {
+      height: 1px;
+      background: #E5E7EB;
+      margin: 28px 0;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #6B7280;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 20px;
+      background: #1B4F72;
+      color: rgba(255,255,255,0.6);
+      font-size: 13px;
+    }
+
+    footer strong {
+      color: #F39C12;
+    }
+
+    footer .subtext {
+      margin-top: 6px;
+    }
+
+    @media (max-width: 480px) {
+      header h1 { font-size: 22px; }
+      .card { padding: 22px 18px; }
+      h2 { font-size: 16px; }
+    }
+  </style>
+  </head>
+  <body>
+
+    <header>
+      <div class="icon">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20 6H12L10 4H4C2.9 4 2 4.9 2 6V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V8C22 6.9 21.1 6 20 6ZM20 18H4V6H9.17L11.17 8H20V18Z" />
+        </svg>
+      </div>
+      <h1>سياسة الخصوصية</h1>
+      <p>تطبيق ملف — Milaf App</p>
+    </header>
+
+    <div class="container">
+
+      <div class="badge">
+        <svg viewBox="0 0 24 24"><path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" /></svg>
+        هذا التطبيق لا يجمع أي بيانات شخصية
+      </div>
+
+      <!-- Section 1 -->
+      <div class="card">
+        <h2><span class="section-num">١</span> المقدمة</h2>
+        <p>
+          تطبيق <strong>ملف</strong> هو أداة احترافية لتسجيل وأرشفة محاضر
+          الاجتماعات.
+          نحن نُولي خصوصية مستخدمينا أهمية قصوى، ونلتزم بأعلى معايير حماية
+          البيانات.
+        </p>
+        <p>
+          تُوضّح هذه السياسة طبيعة البيانات التي يتعامل معها التطبيق، وكيفية
+          تخزينها،
+          وحقوقك كمستخدم.
+        </p>
+      </div>
+
+      <!-- Section 2 -->
+      <div class="card card-green">
+        <h2><span class="section-num">٢</span> البيانات التي نجمعها</h2>
+        <p>تطبيق <strong>ملف</strong> <u>لا يجمع أي بيانات شخصية</u> عن
+          المستخدمين.</p>
+        <p>جميع البيانات التي تُدخلها — عناوين الاجتماعات، أسماء الحاضرين،
+          النقاط، والقرارات — تُخزَّن <strong>محلياً على جهازك فقط</strong>.</p>
+        <div class="green-box">
+          <p>✅ لا يصل أحد إلى بياناتك — لا نحن ولا أي طرف ثالث.</p>
+        </div>
+      </div>
+
+      <!-- Section 3 -->
+      <div class="card">
+        <h2><span class="section-num">٣</span> استخدام الإنترنت</h2>
+        <p>يعمل التطبيق بالكامل <strong>بدون اتصال بالإنترنت
+            (Offline)</strong>.</p>
+        <ul>
+          <li>لا تُرسَل أي بيانات إلى خوادم خارجية.</li>
+          <li>لا يوجد تسجيل دخول أو حسابات مستخدمين.</li>
+          <li>لا يحتاج التطبيق لأي صلاحية للإنترنت في جهازك.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag green">✓ بدون إنترنت</span>
+          <span class="tag green">✓ بدون خوادم</span>
+          <span class="tag green">✓ بدون حسابات</span>
+        </div>
+      </div>
+
+      <!-- Section 4 -->
+      <div class="card card-accent">
+        <h2><span class="section-num">٤</span> تصدير ومشاركة البيانات</h2>
+        <p>
+          يُتيح التطبيق تصدير محضر الاجتماع كملف <strong>PDF</strong> ومشاركته
+          عبر التطبيقات المثبتة على جهازك.
+        </p>
+        <div class="highlight-box">
+          <svg viewBox="0 0 24 24"><path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" /></svg>
+          <p>
+            عند المشاركة، يُستخدم نظام المشاركة الخاص بنظام Android فقط.
+            تطبيق ملف لا يتحكم في وجهة المشاركة ولا يحتفظ بأي نسخة من الملفات
+            المُصدَّرة.
+          </p>
+        </div>
+      </div>
+
+      <!-- Section 5 -->
+      <div class="card">
+        <h2><span class="section-num">٥</span> الأذونات المطلوبة</h2>
+        <p>يطلب التطبيق الحد الأدنى من الأذونات اللازمة للعمل فقط:</p>
+        <div class="tag-row">
+          <span class="tag red">✗ لا إنترنت</span>
+          <span class="tag red">✗ لا كاميرا</span>
+          <span class="tag red">✗ لا موقع جغرافي</span>
+          <span class="tag red">✗ لا جهات اتصال</span>
+          <span class="tag red">✗ لا إشعارات دقيقة</span>
+        </div>
+        <div class="divider"></div>
+        <p class="note">
+          التطبيق لا يحتاج لأي أذونات حساسة. جميع العمليات تتم محلياً داخل فضاء
+          التطبيق المعزول.
+        </p>
+      </div>
+
+      <!-- Section 6 -->
+      <div class="card card-green">
+        <h2><span class="section-num">٦</span> الإعلانات والتتبع</h2>
+        <p>تطبيق <strong>ملف</strong> خالٍ تماماً من:</p>
+        <ul>
+          <li>الإعلانات بجميع أنواعها</li>
+          <li>أدوات التحليل والتتبع (Analytics)</li>
+          <li>مكتبات الطرف الثالث التي تجمع البيانات</li>
+          <li>ملفات تعريف الارتباط (Cookies)</li>
+        </ul>
+        <div class="green-box">
+          <p>✅ لا إعلانات — لا تتبع — لا بيانات تُباع لأحد.</p>
+        </div>
+      </div>
+
+      <!-- Section 7 -->
+      <div class="card">
+        <h2><span class="section-num">٧</span> أمان البيانات</h2>
+        <p>
+          بياناتك محفوظة في قاعدة بيانات <strong>Hive</strong> المحلية داخل فضاء
+          التطبيق المعزول على جهازك.
+          لا يمكن لأي تطبيق آخر الوصول إليها.
+        </p>
+        <p>
+          عند حذف التطبيق من جهازك، تُحذف جميع البيانات المخزنة نهائياً
+          وتلقائياً.
+        </p>
+      </div>
+
+      <!-- Section 8 -->
+      <div class="card">
+        <h2><span class="section-num">٨</span> خصوصية الأطفال</h2>
+        <p>
+          التطبيق موجّه للمستخدمين من عمر 13 سنة فأكثر.
+          نظراً لأننا لا نجمع أي بيانات شخصية، فلا توجد مخاطر خاصة تتعلق بخصوصية
+          الأطفال.
+        </p>
+      </div>
+
+      <!-- Section 9 -->
+      <div class="card card-accent">
+        <h2><span class="section-num">٩</span> التغييرات على هذه السياسة</h2>
+        <p>
+          قد نُحدّث هذه السياسة من وقت لآخر. سيتم نشر أي تغييرات على هذه الصفحة
+          مع تحديث تاريخ آخر مراجعة.
+          ننصح بمراجعة هذه الصفحة دورياً.
+        </p>
+        <div class="highlight-box">
+          <svg viewBox="0 0 24 24"><path
+              d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" /></svg>
+          <p>آخر تحديث لهذه السياسة: 2026</p>
+        </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <p>جميع الحقوق محفوظة &copy; 2026 — <strong>ملف</strong></p>
+      <p class="subtext">Milaf — Professional Meeting Notes App</p>
+    </footer>
+
+  </body>
+</html>
